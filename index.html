@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Lamartine - Accueil</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-3 text-warning" href="index.html">
+                <i class="bi bi-music-note-beamed me-2"></i>Lamartine
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="studios.html">Studios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeries.html">Galeries</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="inventaire.html">Inventaire Matériel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="formations.html">Formations</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-overlay">
+            <div class="container text-center text-white">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h1 class="display-3 fw-bold mb-4 fade-in">Studio Lamartine</h1>
+                        <p class="lead fs-4 mb-5 fade-in-delay">Votre créativité mérite un son d'exception</p>
+                        <a href="studios.html" class="btn btn-warning btn-lg px-5 py-3 rounded-pill fw-semibold fade-in-delay-2">
+                            Découvrir nos studios
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Présentation -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="display-5 fw-bold text-dark mb-4">Bienvenue au Studio Lamartine</h2>
+                    <p class="lead mb-4">
+                        Depuis plus de 15 ans, le Studio Lamartine accompagne les artistes dans la création musicale. 
+                        Nos deux studios d'enregistrement offrent un environnement professionnel et créatif pour donner 
+                        vie à vos projets musicaux.
+                    </p>
+                    <p class="mb-4">
+                        Que vous soyez musicien amateur ou professionnel, notre équipe technique expérimentée et notre 
+                        matériel de haute qualité vous garantissent un résultat à la hauteur de vos ambitions.
+                    </p>
+                    <a href="studios.html" class="btn btn-primary btn-lg">Découvrir nos studios</a>
+                </div>
+                <div class="col-lg-6">
+                    <div class="position-relative">
+                        <img src="https://images.pexels.com/photos/164938/pexels-photo-164938.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                             alt="Studio d'enregistrement" class="img-fluid rounded-4 shadow-lg hover-zoom">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nos Studios -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold text-dark mb-3">Nos Studios</h2>
+                <p class="lead text-muted">Deux espaces uniques pour toutes vos créations</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card studio-card border-0 shadow-lg h-100">
+                        <img src="https://images.pexels.com/photos/159376/turntable-top-view-audio-equipment-159376.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                             class="card-img-top" alt="Studio 1" style="height: 250px; object-fit: cover;">
+                        <div class="card-body p-4">
+                            <h3 class="card-title fw-bold mb-3">Studio 1</h3>
+                            <p class="card-text">
+                                Notre studio principal de 35m² offre une acoustique exceptionnelle pour l'enregistrement 
+                                d'instruments et de voix. Équipé des dernières technologies Pro Tools et d'une console 
+                                analogique vintage.
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small class="text-muted">35m² • Acoustique professionnelle</small>
+                                <a href="studios.html#studio1" class="btn btn-outline-primary">En savoir plus</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card studio-card border-0 shadow-lg h-100">
+                        <img src="https://images.pexels.com/photos/1481309/pexels-photo-1481309.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                             class="card-img-top" alt="Studio Bis" style="height: 250px; object-fit: cover;">
+                        <div class="card-body p-4">
+                            <h3 class="card-title fw-bold mb-3">Studio Bis</h3>
+                            <p class="card-text">
+                                Espace de répétition et d'enregistrement de 20m² parfait pour les groupes et les sessions 
+                                live. Ambiance chaleureuse avec un équipement adapté aux musiques actuelles.
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small class="text-muted">20m² • Sessions live</small>
+                                <a href="studios.html#studiobis" class="btn btn-outline-primary">En savoir plus</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-5 bg-primary text-white">
+        <div class="container text-center">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="display-6 fw-bold mb-3">Prêt à enregistrer votre prochain hit ?</h2>
+                    <p class="lead mb-4">Réservez dès maintenant votre session au Studio Lamartine</p>
+                    <a href="mailto:contact@studio-lamartine.fr" class="btn btn-warning btn-lg px-5 py-3 rounded-pill fw-semibold">
+                        Nous contacter
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h5 class="fw-bold mb-3">
+                        <i class="bi bi-music-note-beamed text-warning me-2"></i>Studio Lamartine
+                    </h5>
+                    <p class="mb-3">Studio d'enregistrement et de répétition professionnel depuis 2008</p>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="text-light fs-4"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-light fs-4"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-light fs-4"><i class="bi bi-youtube"></i></a>
+                        <a href="#" class="text-light fs-4"><i class="bi bi-spotify"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="fw-bold mb-3">Contact</h5>
+                    <p class="mb-2">
+                        <i class="bi bi-geo-alt text-warning me-2"></i>
+                        123 Rue de la Musique, 69000 Lyon
+                    </p>
+                    <p class="mb-2">
+                        <i class="bi bi-telephone text-warning me-2"></i>
+                        +33 4 78 12 34 56
+                    </p>
+                    <p class="mb-0">
+                        <i class="bi bi-envelope text-warning me-2"></i>
+                        contact@studio-lamartine.fr
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="fw-bold mb-3">Horaires</h5>
+                    <p class="mb-2">Lundi - Vendredi : 9h - 22h</p>
+                    <p class="mb-2">Samedi : 10h - 20h</p>
+                    <p class="mb-0">Dimanche : Sur rendez-vous</p>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 Studio Lamartine. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
