@@ -210,3 +210,7 @@ function addCardHoverEffects() {
 
 // Initialiser les effets des cartes
 document.addEventListener('DOMContentLoaded', addCardHoverEffects);
+
+
+
+
